@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background: firebrick;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.body {
+    background-image: url("../images/Thrawn.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body2 {
+    background-image: url("../images/Thrawn3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container {
+    text-align: center;
+    margin: 250px;
+}
+
+.button {
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    
+}
