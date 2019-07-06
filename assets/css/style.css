@@ -12,6 +12,7 @@
 
 .navbar {
     font-size: 20px;
+    color: black;
 }
 
 .body {
@@ -36,15 +37,17 @@
 }
 
 .container2 {
-    margin: 175px;
+    margin: 100px;
     padding: 10px;
     text-align: center;
     background: white;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 22.5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .button {
+    background: black;
     font-family: 'Russo One', sans-serif;
     font-size: 25px;
     padding: 20px;
