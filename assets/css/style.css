@@ -3,14 +3,15 @@
     box-sizing: border-box;
 }
 
-.title {
+.title  {
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
     text-align: center;
     background: firebrick;
+    
 }
 
-.navbar {
+.navbar { 
     font-size: 18px;
     color: black;
 }
@@ -32,7 +33,7 @@
 }
 
 .body3 {
-    background-image: url("../images/Chimaera.png");
+    background-image: url("../images/starwarsbg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,6 +45,18 @@
     margin: 250px;
 }
 
+.card {
+    background: white;
+    border: solid white;
+    margin: 20px;
+    float: left;
+}
+
+
+.image {
+    width: 200px;
+    height: 200px;
+}
 .container2 {
     margin: 100px;
     padding: 10px;
