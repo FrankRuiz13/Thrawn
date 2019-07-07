@@ -2,20 +2,16 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
 .title  {
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
     text-align: center;
-    background: firebrick;
-    
+    background: firebrick;   
 }
-
 .navbar { 
     font-size: 18px;
     color: black;
 }
-
 .body {
     background-image: url("../images/Thrawn.jpg");
     background-attachment: fixed;
@@ -23,7 +19,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
 .body2 {
     background-image: url("../images/Thrawn3.jpg");
     background-attachment: fixed;
@@ -31,7 +26,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
 .body3 {
     background-image: url("../images/starwarsbg.jpg");
     background-attachment: fixed;
@@ -39,19 +33,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .container {
     text-align: center;
-    margin: 250px;
+    margin: 200px;
 }
-
+.top {
+    color: white;
+    text-shadow: 2px 2px 7px black;
+}
 .card {
     background: white;
     border: solid white;
     margin: 20px;
     float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 .image {
     width: 200px;
@@ -66,9 +62,9 @@
     line-height: 22.5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .link {
     font-family: 'Russo One', sans-serif;
     font-size: 30px;
-    color: black;
+    color: firebrick;
+    text-shadow: 2px 2px 7px black;
 }
