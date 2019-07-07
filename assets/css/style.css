@@ -19,14 +19,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.body2 {
+.bio {
     background-image: url("../images/Thrawn3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.body3 {
+.navy {
     background-image: url("../images/starwarsbg.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -36,15 +36,25 @@
 .container {
     text-align: center;
     margin: 200px;
+    
 }
 .top {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size:35px;
     color: white;
     text-shadow: 2px 2px 7px black;
 }
+
+.imageContainer {
+    margin: 200px 350px 30px 350px;
+    overflow: auto;
+}
 .card {
+    text-align: center;
     background: white;
     border: solid white;
-    margin: 20px;
+    margin: 30px;
     float: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -53,7 +63,7 @@
     width: 200px;
     height: 200px;
 }
-.container2 {
+.textcontainer {
     margin: 100px;
     padding: 10px;
     text-align: center;
