@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 .title  {
     font-family: 'Russo One', sans-serif;
@@ -39,6 +39,7 @@
     
 }
 .top {
+    clear: both;
     margin-bottom: 15px;
     text-align: center;
     font-size:35px;
@@ -58,10 +59,10 @@
     float: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .image {
     width: 200px;
     height: 200px;
+    float: left;
 }
 .textcontainer {
     margin: 100px;
@@ -78,3 +79,4 @@
     color: firebrick;
     text-shadow: 2px 2px 7px black;
 }
+
