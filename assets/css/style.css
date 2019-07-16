@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;  
+    
 }
 .title  {
     font-family: 'Russo One', sans-serif;
@@ -79,5 +80,6 @@
     font-size: 30px;
     color: firebrick;
     text-shadow: 2px 2px 7px black;
+    text-decoration: none;
 }
 
